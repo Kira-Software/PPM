@@ -1,0 +1,53 @@
+.logo {
+  margin-left: 20px;
+  position: fixed;
+  top: 20px;
+}
+
+.left {
+  height: 100vh;
+  width: 40%;
+  background-color: rgb(22, 173, 110);
+  float: left;
+}
+
+.loginimage {
+  margin-top: 100px;
+  margin-left: 45%;
+}
+
+.loginright {
+  float: left;
+  padding-top: 200px;
+  padding-left: 300px;
+}
+
+.loginright h1 {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.loginright input {
+  margin: 10px;
+  width: 300px;
+}
+
+.loginright button {
+  background-color: white;
+  color: green;
+  width: 200px;
+  margin-left: 50px;
+  border-radius: 10px;
+  border: 2px solid green;
+  margin-top: 20px;
+}
+
+.loginright p{
+  margin-top: 50px;
+  color: red;
+}
+
+.loginright button:hover { 
+  background-color: green;
+  color: white;
+}

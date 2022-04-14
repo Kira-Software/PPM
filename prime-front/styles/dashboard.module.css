@@ -1,0 +1,154 @@
+.sidebar {
+  float: left;
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(20, 80, 20);
+  position: fixed;
+}
+
+.sidebar img {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.dashboardbut {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 70px;
+  font-size: larger;
+}
+
+.accbutton {
+  cursor: pointer;
+}
+
+.top {
+  float: left;
+  height: 100px;
+  background-color: rgb(30, 99, 30);
+  width: 80%;
+  color: white;
+  /* position: fixed; */
+  margin-left: 20%;
+}
+
+.top h1 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.modalbody {
+}
+
+.modalbody td {
+  /* width: 50%; */
+  /* margin-left: 25%; */
+  margin-top: 10px;
+  height: 50px;
+}
+
+.modallabel{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.modalinput {
+  width: 300px;
+  /* margin-left: 25%;
+  margin-top: 10px; */
+  height: 40px;
+}
+
+
+.logout{
+  margin-left: 90%;
+  border-radius: 5px;
+}
+
+.projects{
+  width: 80%;
+  margin-left: 20%;
+  max-height: 80vh;
+  overflow: auto;
+  /* float: left; */
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    /* float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(20, 80, 20);
+    position: fixed; */
+    display: none;
+  }
+  
+  .sidebar img {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .dashboardbut {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 70px;
+    font-size: larger;
+  }
+  
+  .accbutton {
+    cursor: pointer;
+  }
+  
+  .top {
+    /* float: left;
+    height: 100px;
+    background-color: rgb(30, 99, 30); */
+    width: 100%;
+    /* color: white; */
+    /* position: fixed; */
+    margin-left: 0%;
+  }
+  
+  .top h1 {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  .modalbody {
+  }
+  
+  .modalbody td {
+    /* width: 50%; */
+    /* margin-left: 25%; */
+    margin-top: 10px;
+    height: 50px;
+  }
+  
+  .modallabel{
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  
+  .modalinput {
+    width: 300px;
+    /* margin-left: 25%;
+    margin-top: 10px; */
+    height: 40px;
+  }
+  
+  
+  .logout{
+    margin-left: 80%;
+    border-radius: 5px;
+  }
+  
+  .projects{
+    width: 80%;
+    margin-left: 20%;
+    max-height: 80vh;
+    overflow: auto;
+    /* float: left; */
+  }
+}

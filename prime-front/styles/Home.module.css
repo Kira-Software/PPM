@@ -1,0 +1,41 @@
+.space {
+  margin-top: 10px;
+  border-bottom: 2px black solid;
+}
+
+.carousel h3 {
+  font-size: 50px;
+}
+
+.carousel p {
+  font-size: 40px;
+  margin-top: 50px;
+  color: black;
+  font-family: cursive;
+}
+
+.caption {
+  top: 25%;
+  bottom: auto;
+}
+
+.discoverDiv {
+  margin-top: 150px;
+  margin-left: 20%;
+  color: green;
+}
+.discover {
+  float: left;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .carousel h3 {
+    font-size: 30px;
+  }
+
+  .carousel p {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+}

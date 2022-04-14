@@ -1,0 +1,133 @@
+.top h1 {
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.top p {
+  font-size: larger;
+  width: 50%;
+  margin-left: 20%;
+}
+
+.left {
+  float: left;
+  margin-left: 10%;
+  margin-top: 200px;
+}
+
+.icons img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.right {
+  float: left;
+  margin-left: 10%;
+  margin-top: 150px;
+}
+
+.emailtel a {
+  color: blue;
+  margin-top: 100px;
+  padding: 5px 20px;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.right label {
+  font-size: large;
+}
+
+.right input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 400px;
+}
+
+.right textarea {
+  margin-top: 20px;
+  height: 150px;
+  width: 400px;
+}
+
+.right button {
+  background-color: green;
+  height: 40px;
+  width: 200px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.title {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .left {
+    margin-top: 100px;
+  }
+  .right {
+    margin-top: 100px;
+  }
+  .top p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .icons img {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+  }
+
+  .right label {
+    font-size: large;
+  }
+
+  .right input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 90%;
+  }
+
+  .right textarea {
+    margin-top: 20px;
+    height: 150px;
+    width: 300px;
+  }
+
+  .right button {
+    background-color: green;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+  }
+
+  .title {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .top h1{
+    display: none;
+  }
+
+  /* .right input {
+    width: 90%;
+    
+  }
+
+  .right textarea {
+    width: 90%;
+  } */
+}
